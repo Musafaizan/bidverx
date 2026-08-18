@@ -7,6 +7,7 @@ import {
   BadgeCheck,
   Radio,
   Headset,
+  RotateCcw,
 } from "lucide-react";
 import Reveal from "../../components/Reveal";
 import { submitLead } from "../../services/leadService";
@@ -126,6 +127,18 @@ export default function LeadForm() {
                   In the meantime, explore live auctions on{" "}
                   <a href="mailto:bidverx@gmail.com">bidverx@gmail.com</a>
                 </p>
+                <button
+                  type="button"
+                  className="btn btn-outline leadform-resubmit"
+                  onClick={() => {
+                    setForm({ name: "", email: "", category: "", message: "" });
+                    setErrors({});
+                    setStatus("idle");
+                  }}
+                >
+                  <RotateCcw size={15} aria-hidden="true" />
+                  Submit Another Response
+                </button>
               </div>
             ) : (
               <form className="leadform-form" onSubmit={handleSubmit} noValidate>

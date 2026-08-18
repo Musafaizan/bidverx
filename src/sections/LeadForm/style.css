@@ -284,6 +284,10 @@
   font-weight: 600;
 }
 
+.leadform-resubmit {
+  margin-top: 18px;
+}
+
 @media (max-width: 960px) {
   .leadform-inner {
     grid-template-columns: 1fr;
