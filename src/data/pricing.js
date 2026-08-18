@@ -1,0 +1,46 @@
+export const pricing = [
+  {
+    name: "Starter",
+    price: "$0",
+    period: "forever",
+    description: "For users discovering online auctions.",
+    features: [
+      "Browse verified listings",
+      "Standard lot information",
+      "Up to 5 bids per month",
+      "Community support",
+    ],
+    cta: "Start Free",
+    highlighted: false,
+  },
+  {
+    name: "Professional",
+    price: "$29",
+    period: "per month",
+    description: "For frequent bidders who want an edge.",
+    features: [
+      "Unlimited bidding",
+      "Detailed lot reports",
+      "Real-time auction alerts",
+      "Priority bid placement",
+      "Dedicated email support",
+    ],
+    cta: "Choose Professional",
+    highlighted: true,
+  },
+  {
+    name: "Premium",
+    price: "$79",
+    period: "per month",
+    description: "For serious bidders and dealers.",
+    features: [
+      "Everything in Professional",
+      "Private auction access",
+      "Personal bid manager",
+      "Inspection discounts",
+      "Priority shipping options",
+    ],
+    cta: "Go Premium",
+    highlighted: false,
+  },
+];

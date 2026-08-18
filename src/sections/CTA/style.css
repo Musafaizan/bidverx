@@ -1,0 +1,113 @@
+.cta {
+  padding: 130px 0;
+  overflow: hidden;
+}
+
+.cta-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.cta-grid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  animation: cta-grid-move 16s linear infinite;
+  -webkit-mask-image: radial-gradient(ellipse 80% 90% at 50% 50%, #000 25%, transparent 75%);
+  mask-image: radial-gradient(ellipse 80% 90% at 50% 50%, #000 25%, transparent 75%);
+}
+
+@keyframes cta-grid-move {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 48px;
+  }
+}
+
+.cta-glow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 760px;
+  height: 460px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(ellipse at center, rgba(61, 123, 255, 0.22), rgba(46, 230, 255, 0.06) 45%, transparent 70%);
+  filter: blur(40px);
+}
+
+.cta-sweep {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 220px;
+  left: -260px;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  transform: skewX(-16deg);
+  animation: cta-sweep 9s ease-in-out infinite;
+}
+
+@keyframes cta-sweep {
+  0% {
+    left: -260px;
+  }
+  55% {
+    left: 110%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+.cta-hammer {
+  position: absolute;
+  bottom: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+  opacity: 0.16;
+  filter: blur(1.5px);
+}
+
+.cta-hammer img {
+  width: 100%;
+  height: auto;
+}
+
+.cta-inner {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-title {
+  font-size: clamp(30px, 5vw, 52px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  max-width: 760px;
+}
+
+.cta-text {
+  margin-top: 18px;
+  max-width: 520px;
+  color: var(--text-dim);
+  font-size: clamp(15px, 1.7vw, 17px);
+}
+
+.cta-btn {
+  margin-top: 34px;
+  padding: 17px 38px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .cta-hammer {
+    width: 260px;
+  }
+}
