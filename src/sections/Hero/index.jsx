@@ -20,9 +20,6 @@ export default function Hero() {
     const onScroll = () => {
       const y = Math.min(window.scrollY, 900);
       setParallax(y * -0.07);
-      if (visualRef.current) {
-        visualRef.current.style.opacity = String(Math.max(1 - window.scrollY / 500, 0.35));
-      }
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
