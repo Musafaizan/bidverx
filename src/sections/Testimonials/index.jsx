@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Star, MapPin, ChevronLeft, ChevronRight, Gavel } from "lucide-react";
 import Reveal from "../../components/Reveal";
-import { testimonials } from "../../data/testimonials";
+import { testimonials } from "../../data";
 import "./style.css";
 
 function Stars({ count }) {

@@ -1,6 +1,6 @@
 import { BadgeCheck, ShieldCheck, Lock, Eye } from "lucide-react";
 import Reveal from "../../components/Reveal";
-import { logos } from "../../data/logos";
+import { logos } from "../../data";
 import "./style.css";
 
 const BADGES = [

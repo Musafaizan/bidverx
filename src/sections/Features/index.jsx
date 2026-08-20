@@ -1,5 +1,5 @@
 import Reveal from "../../components/Reveal";
-import { features } from "../../data/features";
+import { features } from "../../data";
 import "./style.css";
 
 export default function Features() {

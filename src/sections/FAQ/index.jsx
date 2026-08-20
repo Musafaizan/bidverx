@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Plus } from "lucide-react";
 import Reveal from "../../components/Reveal";
-import { faqs } from "../../data/faq";
+import { faqs } from "../../data";
 import "./style.css";
 
 export default function FAQ() {

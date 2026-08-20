@@ -1,6 +1,6 @@
 import { Check, Sparkles } from "lucide-react";
 import Reveal from "../../components/Reveal";
-import { pricing } from "../../data/pricing";
+import { pricing } from "../../data";
 import { scrollToId } from "../../utils/scroll";
 import "./style.css";
 
