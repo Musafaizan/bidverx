@@ -16,14 +16,15 @@ export default function CTA2() {
       <div className="container cta2-inner">
         <div className="cta2-copy">
           <Reveal variant="left">
-            <span className="eyebrow">Your win is waiting</span>
+            <span className="eyebrow">Your house, online</span>
             <h2 className="cta2-title">
-              Stop Searching. <span className="grad-text">Start Winning.</span>
+              Stop Managing Sales Manually. <span className="grad-text">Start Automating.</span>
             </h2>
           </Reveal>
           <Reveal variant="left" delay={120}>
             <p className="cta2-text">
-              The right lot is waiting. Your next winning bid starts here.
+              Launch your own branded auction site and let BidVerx handle the
+              bidding, payments and reporting.
             </p>
           </Reveal>
           <Reveal variant="left" delay={240}>
@@ -57,8 +58,8 @@ export default function CTA2() {
                 <span />
               </div>
               <div className="auction-panel-footer">
-                <span>Lot #4912</span>
-                <span className="auction-winner">Highest bid · You?</span>
+                <span>Auction #312</span>
+                <span className="auction-winner">Sold · 48 lots</span>
               </div>
             </div>
           </div>

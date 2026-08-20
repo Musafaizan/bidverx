@@ -6,10 +6,10 @@ import bidverxHammer from "../../assets/bidverx-hammer.png";
 import "./style.css";
 
 const STATS = [
-  { value: "120K+", label: "Bids Placed" },
-  { value: "45K+", label: "Lots Verified" },
-  { value: "850+", label: "Auction Sources" },
-  { value: "$2.4B", label: "Auction Volume" },
+  { value: "10K+", label: "Auction Houses" },
+  { value: "1.2M+", label: "Lots Sold" },
+  { value: "45M+", label: "Bids Processed" },
+  { value: "$2.4B", label: "Sales Volume" },
 ];
 
 export default function Hero() {
@@ -38,29 +38,29 @@ export default function Hero() {
           <Reveal variant="up">
             <span className="hero-badge">
               <span className="pulse-dot" aria-hidden="true" />
-              Trusted Live Auctions
+              Built for Auction Houses
             </span>
           </Reveal>
 
           <Reveal variant="up" delay={100}>
             <h1 className="hero-title">
-              Bid Smarter.
+              Run Smarter Auctions.
               <br />
-              <span className="grad-text">Win More.</span>
+              <span className="grad-text">Sell More Lots.</span>
             </h1>
           </Reveal>
 
           <Reveal variant="up" delay={200}>
             <p className="hero-sub">
-              Discover verified lots, compete in trusted auctions, and win
-              with confidence.
+              The complete bidding platform for bid houses, auctioneers and
+              estate sale pros — go live in days, not months.
             </p>
           </Reveal>
 
           <Reveal variant="up" delay={300}>
             <div className="hero-cta">
               <button className="btn btn-primary" onClick={() => scrollToId("contact")}>
-                Start Bidding
+                Get Started
                 <ArrowRight size={17} aria-hidden="true" />
               </button>
               <button className="btn btn-outline" onClick={() => scrollToId("features")}>

@@ -3,48 +3,48 @@ export const testimonials = [
     name: "Ahmed Khan",
     location: "Lahore, Pakistan",
     rating: 5,
-    item: "Vintage Rolex Datejust",
+    item: "Estate liquidation · 120 lots",
     quote:
-      "BidVerx made the whole bidding process incredibly simple. I finally won the piece I wanted without the usual hassle.",
+      "We used to run sales over phone calls and spreadsheets. With BidVerx, our last estate sale sold 120 lots in two days — fully online, fully tracked.",
   },
   {
     name: "Sara Malik",
     location: "Karachi, Pakistan",
     rating: 5,
-    item: "Original Oil Painting",
+    item: "Antiques sale · 80 lots",
     quote:
-      "The lot information was so detailed that I felt confident bidding from the start. Everything was exactly as described.",
+      "The catalog tool alone saved us a week of work. We uploaded the entire antique collection in an afternoon and our bidders loved how clean it looked.",
   },
   {
     name: "Daniel Foster",
     location: "Dubai, UAE",
     rating: 5,
-    item: "Limited Edition Sneakers",
+    item: "Vehicle auction · 45 cars",
     quote:
-      "Real-time bidding changed everything for me. I placed my bid in seconds and won the lot I had been eyeing for months.",
+      "Live bidding changed everything for our car auctions. Hundreds of bidders joined without a single drop, and payments settled automatically that week.",
   },
   {
     name: "Emily Carter",
     location: "London, UK",
     rating: 4,
-    item: "Mid-Century Furniture Set",
+    item: "Monthly furniture sale",
     quote:
-      "Support answered every question within minutes. A genuinely transparent process from registration all the way to delivery.",
+      "Onboarding was genuinely simple. The BidVerx team walked us through our first sale, and support answers within minutes every single time.",
   },
   {
     name: "Marcus Reed",
     location: "Austin, USA",
     rating: 5,
-    item: "Rare Coin Collection",
+    item: "Coins & collectibles sale",
     quote:
-      "I've used traditional auctions for years. BidVerx feels like a completely different league — cleaner, faster and fairer.",
+      "I've watched other houses struggle with clunky software. BidVerx feels like a different league — cleaner, faster and our turnout keeps growing.",
   },
   {
     name: "Lena Hoffmann",
     location: "Berlin, Germany",
     rating: 5,
-    item: "Vintage Camera Collection",
+    item: "Camera gear auction",
     quote:
-      "As a first-time bidder I was nervous, but the process was so smooth and secure. My winning bid even came in under budget.",
+      "As a small house I was nervous about going digital, but the process was so smooth. Our camera gear auction ended over 30% above estimate.",
   },
 ];

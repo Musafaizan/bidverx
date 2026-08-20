@@ -11,10 +11,11 @@ export default function Features() {
           <div className="section-head">
             <span className="eyebrow">The BidVerx platform</span>
             <h2 className="section-title">
-              Everything You Need to <span className="grad-text">Bid With Confidence</span>
+              Everything You Need to <span className="grad-text">Run Your Auction House</span>
             </h2>
             <p className="section-sub">
-              A complete bidding experience — built for speed, built on trust.
+              A complete platform to run, manage and grow your bidding business —
+              fast, reliable and made for auctioneers.
             </p>
           </div>
         </Reveal>

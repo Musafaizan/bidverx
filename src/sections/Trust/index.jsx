@@ -4,10 +4,10 @@ import { logos } from "../../data/logos";
 import "./style.css";
 
 const BADGES = [
-  { icon: BadgeCheck, title: "Verified Sources", text: "Every listing is sourced from a trusted, vetted auction network." },
-  { icon: ShieldCheck, title: "Certified Lots", text: "Every lot passes our checks before it is ever listed on BidVerx." },
-  { icon: Lock, title: "Secure Bidding", text: "Your bids, identity and payments are protected end to end." },
-  { icon: Eye, title: "Transparent Process", text: "Clear rules, open activity and honest lot information." },
+  { icon: BadgeCheck, title: "Ready-Made Platform", text: "Launch your own branded auction site in days — no developers, no technical skills." },
+  { icon: ShieldCheck, title: "Reliable & Secure", text: "Bank-grade security, stable bidding servers and secure payment handling." },
+  { icon: Lock, title: "Bidder Management", text: "Register, verify and approve bidders with custom rules and deposits." },
+  { icon: Eye, title: "Full Transparency", text: "Live dashboards and clear reporting — you always know how your sale is performing." },
 ];
 
 export default function Trust() {
@@ -18,11 +18,11 @@ export default function Trust() {
           <div className="section-head">
             <span className="eyebrow">Trusted by design</span>
             <h2 className="section-title">
-              Trusted Auctions. <span className="grad-text">Certified Sources.</span>
+              Built for Auction Houses. <span className="grad-text">Trusted by Professionals.</span>
             </h2>
             <p className="section-sub">
-              BidVerx connects you with trusted auction sources so
-              you can bid with confidence.
+              BidVerx gives you everything you need to run, manage and
+              grow your bidding business.
             </p>
           </div>
         </Reveal>

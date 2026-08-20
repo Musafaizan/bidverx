@@ -36,12 +36,12 @@ export default function Testimonials() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <span className="eyebrow">Winning stories</span>
+            <span className="eyebrow">House success stories</span>
             <h2 className="section-title">
-              People Who <span className="grad-text">Bid With BidVerx</span>
+              Auction Houses That <span className="grad-text">Run on BidVerx</span>
             </h2>
             <p className="section-sub">
-              Real bidders, real lots, real wins.
+              Real houses, real sales, real growth.
             </p>
           </div>
         </Reveal>
@@ -67,7 +67,7 @@ export default function Testimonials() {
                   <p className="test-quote">“{t.quote}”</p>
                   <div className="test-vehicle">
                     <Gavel size={14} aria-hidden="true" />
-                    Won: {t.item}
+                    Sold: {t.item}
                   </div>
                 </article>
               ))}

@@ -101,12 +101,12 @@ svg {
 
 .section {
   position: relative;
-  padding: 112px 0;
+  padding: 64px 0;
 }
 
 .section-head {
   max-width: 720px;
-  margin: 0 auto 64px;
+  margin: 0 auto 36px;
   text-align: center;
 }
 
@@ -255,10 +255,10 @@ svg {
 
 @media (max-width: 768px) {
   .section {
-    padding: 84px 0;
+    padding: 44px 0;
   }
 
   .section-head {
-    margin-bottom: 44px;
+    margin-bottom: 26px;
   }
 }

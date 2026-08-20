@@ -6,7 +6,7 @@ import "./style.css";
 
 export default function CTA() {
   return (
-    <section className="section cta" aria-label="Start bidding">
+    <section className="section cta" aria-label="Run your auctions">
       <div className="cta-bg" aria-hidden="true">
         <div className="cta-grid" />
         <div className="cta-glow" />
@@ -19,18 +19,18 @@ export default function CTA() {
       <div className="container cta-inner">
         <Reveal variant="up">
           <h2 className="cta-title">
-            Your Next Win Could Be <span className="grad-text">One Bid Away.</span>
+            Your Next Auction Could <span className="grad-text">Sell Out in Hours.</span>
           </h2>
         </Reveal>
         <Reveal variant="up" delay={120}>
           <p className="cta-text">
-            Join BidVerx and discover a smarter way to win lots through
-            trusted auctions.
+            Run live, timed and hybrid auctions with BidVerx — and turn
+            your inventory into sales faster than ever.
           </p>
         </Reveal>
         <Reveal variant="up" delay={240}>
           <button className="btn btn-primary cta-btn" onClick={() => scrollToId("contact")}>
-            Start Bidding
+            Get Started
             <ArrowRight size={17} aria-hidden="true" />
           </button>
         </Reveal>

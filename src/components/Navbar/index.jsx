@@ -87,7 +87,7 @@ export default function Navbar() {
 
         <div className="navbar-actions">
           <button className="btn btn-primary btn-sm navbar-cta" onClick={() => goTo("contact")}>
-            Start Bidding
+            Get Started
             <ArrowRight size={16} aria-hidden="true" />
           </button>
           <button
@@ -119,7 +119,7 @@ export default function Navbar() {
             </button>
           ))}
           <button className="btn btn-primary navbar-mobile-cta" onClick={() => goTo("contact")}>
-            Start Bidding
+            Get Started
             <ArrowRight size={16} aria-hidden="true" />
           </button>
         </nav>

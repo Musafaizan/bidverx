@@ -3,13 +3,13 @@ import Reveal from "../../components/Reveal";
 import "./style.css";
 
 const ROWS = [
-  { label: "Verified Sources", bidverx: "Yes", trad: "Limited", other: "Yes" },
-  { label: "Transparent Process", bidverx: "Yes", trad: "Limited", other: "Sometimes" },
-  { label: "Real-Time Bidding", bidverx: "Yes", trad: "Yes", other: "Yes" },
+  { label: "Ready-Made Platform", bidverx: "Yes", trad: "No", other: "Sometimes" },
+  { label: "Live & Timed Auctions", bidverx: "Yes", trad: "Limited", other: "Yes" },
+  { label: "Automated Payments", bidverx: "Yes", trad: "No", other: "Limited" },
+  { label: "Bidder Management", bidverx: "Yes", trad: "Limited", other: "Sometimes" },
+  { label: "White-Label Branding", bidverx: "Yes", trad: "Yes", other: "No" },
+  { label: "No Commission Fees", bidverx: "Yes", trad: "No", other: "No" },
   { label: "Dedicated Support", bidverx: "Yes", trad: "Limited", other: "Limited" },
-  { label: "Simple User Experience", bidverx: "Yes", trad: "No", other: "Sometimes" },
-  { label: "Secure Process", bidverx: "Yes", trad: "Yes", other: "Yes" },
-  { label: "Lot Information", bidverx: "Detailed", trad: "Limited", other: "Varies" },
 ];
 
 function Cell({ value, best }) {
@@ -46,7 +46,7 @@ export default function Competitors() {
             <h2 className="section-title">
               Why <span className="grad-text">BidVerx?</span>
             </h2>
-            <p className="section-sub">A better way to experience online bidding.</p>
+            <p className="section-sub">The smarter way to run your bidding business.</p>
           </div>
         </Reveal>
 
@@ -62,8 +62,8 @@ export default function Competitors() {
                     <Crown size={15} aria-hidden="true" />
                     BidVerx
                   </th>
-                  <th scope="col" className="comp-head-plain">Traditional Auction</th>
-                  <th scope="col" className="comp-head-plain">Other Platforms</th>
+                  <th scope="col" className="comp-head-plain">In-House Custom Build</th>
+                  <th scope="col" className="comp-head-plain">Offline-Only Auctions</th>
                 </tr>
               </thead>
               <tbody>
@@ -83,7 +83,7 @@ export default function Competitors() {
         <Reveal variant="up" delay={150}>
           <p className="comp-note">
             <ChevronRight size={14} aria-hidden="true" />
-            Every feature on BidVerx is built around one thing — your confidence.
+            Every feature on BidVerx is built around one thing — growing your auction business.
           </p>
         </Reveal>
       </div>

@@ -37,7 +37,7 @@ const FOOTER_LINKS = [
   { id: "testimonials", label: "Testimonials" },
   { id: "competitors", label: "Competitors" },
   { id: "faq", label: "FAQ" },
-  { id: "contact", label: "Start Bidding" },
+  { id: "contact", label: "Get Started" },
 ];
 
 const SOCIALS = [
@@ -75,7 +75,7 @@ export default function Footer() {
               />
             </div>
             <p className="footer-desc">
-              Smarter bidding. Better wins. Trusted auctions.
+              Smarter auctions. Bigger sales. Trusted platform.
             </p>
             <div className="footer-socials">
               {SOCIALS.map((social) => (
@@ -114,15 +114,15 @@ export default function Footer() {
               bidverx@gmail.com
             </a>
             <p className="footer-note">
-              Questions about a listing or an upcoming auction? Reach out
-              anytime — our team responds fast.
+              Questions about launching or growing your auction house on
+              BidVerx? Reach out anytime — our team responds fast.
             </p>
           </div>
         </div>
 
         <div className="footer-bottom">
           <p>© 2026 BidVerx. All rights reserved.</p>
-          <p className="footer-tagline">Bid Smarter. Win Better.</p>
+          <p className="footer-tagline">Run Smarter. Sell More.</p>
         </div>
       </div>
     </footer>

@@ -14,19 +14,19 @@ import { submitLead } from "../../services/leadService";
 import "./style.css";
 
 const POINTS = [
-  { icon: BadgeCheck, text: "Verified lots from trusted auction sources" },
-  { icon: Radio, text: "Real-time bidding on live auctions" },
-  { icon: Headset, text: "Dedicated support at every step" },
+  { icon: BadgeCheck, text: "Your own branded auction site, live in days" },
+  { icon: Radio, text: "Live, timed and hybrid auctions on one platform" },
+  { icon: Headset, text: "Dedicated onboarding and ongoing support" },
 ];
 
 const CATEGORIES = [
-  "Antiques & Collectibles",
-  "Art & Design",
-  "Electronics & Tech",
-  "Jewelry & Watches",
-  "Vehicles",
-  "Real Estate",
-  "Furniture & Home",
+  "Estates & Liquidations",
+  "Vehicles & Heavy Equipment",
+  "Real Estate & Property",
+  "Art, Antiques & Collectibles",
+  "Industrial & Surplus",
+  "Consumer Goods & Returns",
+  "Government & Municipal",
   "Other",
 ];
 
@@ -85,11 +85,11 @@ export default function LeadForm() {
           <div className="leadform-copy">
             <span className="eyebrow">Get started today</span>
             <h2 className="leadform-title">
-              Ready to Win Your <span className="grad-text">Next Lot?</span>
+              Ready to Launch Your <span className="grad-text">Next Auction?</span>
             </h2>
             <p className="leadform-text">
-              Tell us what you're looking for and our team will help you get
-              started — from your first registration to your first winning bid.
+              Tell us about your house and our team will help you get
+              started — from your first catalog to your first sold-out sale.
             </p>
             <ul className="leadform-points">
               {POINTS.map((point) => (
@@ -121,10 +121,11 @@ export default function LeadForm() {
                 <h3 className="leadform-success-title">You're all set!</h3>
                 <p className="leadform-success-text">
                   Thanks, <strong>{form.name.split(" ")[0]}</strong>. Your details
-                  have been received and our team will contact you shortly.
+                  have been received and our team will reach out to schedule
+                  your demo.
                 </p>
                 <p className="leadform-success-note">
-                  In the meantime, explore live auctions on{" "}
+                  Questions in the meantime? Write to us anytime at{" "}
                   <a href="mailto:bidverx@gmail.com">bidverx@gmail.com</a>
                 </p>
                 <button
@@ -186,7 +187,7 @@ export default function LeadForm() {
 
                 <div className="leadform-field">
                   <label className="leadform-label" htmlFor="lead-category">
-                    What are you interested in? <span>*</span>
+                    What type of auctions do you run? <span>*</span>
                   </label>
                   <select
                     id="lead-category"
@@ -217,7 +218,7 @@ export default function LeadForm() {
                     id="lead-message"
                     className="leadform-input leadform-textarea"
                     name="message"
-                    placeholder="Tell us about the lots or auctions you're interested in..."
+                    placeholder="Tell us about your auction house, your inventory or the sales you run..."
                     value={form.message}
                     onChange={handleChange}
                   />
@@ -234,13 +235,13 @@ export default function LeadForm() {
                       Sending...
                     </>
                   ) : (
-                    "Request Consultation"
+                    "Book a Demo"
                   )}
                 </button>
 
                 <p className="leadform-privacy">
                   By submitting, you agree to be contacted about BidVerx
-                  auctions. We never share your details.
+                  auction software. We never share your details.
                 </p>
               </form>
             )}

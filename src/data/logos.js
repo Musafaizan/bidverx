@@ -10,12 +10,12 @@ import {
 } from "lucide-react";
 
 export const logos = [
-  { name: "BidSource", icon: Gavel },
-  { name: "AuctionHub", icon: Warehouse },
-  { name: "BidMark", icon: ShieldCheck },
-  { name: "LotVault", icon: KeyRound },
-  { name: "BidBridge", icon: Package },
-  { name: "Apex Bids", icon: Zap },
-  { name: "PrimeLots", icon: Factory },
-  { name: "Capital Auctions", icon: Landmark },
+  { name: "Harrington House", icon: Gavel },
+  { name: "Meridian Auction Group", icon: Warehouse },
+  { name: "Vantage Estate Sales", icon: ShieldCheck },
+  { name: "Crown & Co.", icon: KeyRound },
+  { name: "Summit Auctioneers", icon: Package },
+  { name: "Lakeshore House", icon: Zap },
+  { name: "Brightfield Auctions", icon: Factory },
+  { name: "Northgate House", icon: Landmark },
 ];

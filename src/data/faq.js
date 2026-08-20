@@ -1,38 +1,38 @@
 export const faqs = [
   {
     q: "How does BidVerx work?",
-    a: "BidVerx connects you with trusted auction sources. You browse verified lots, place real-time bids during live auctions, and win lots at transparent prices — all from one simple platform.",
+    a: "BidVerx is a complete auction platform for bid houses and auctioneers. Set up your house once — catalog your lots, schedule a sale and go live. BidVerx handles registration, real-time bidding, payments and reporting end to end.",
   },
   {
-    q: "How do I start bidding?",
-    a: "Create a free account, complete your profile, and browse active auctions. Once you find a lot you like, place your first bid in seconds. No phone calls, no paperwork, no waiting rooms.",
+    q: "Do I need any technical skills to launch?",
+    a: "No. You can create your own branded auction site without writing a line of code. Upload your inventory, add your logo and publish your first sale in days — our onboarding team sets everything up with you.",
   },
   {
-    q: "Are the lots verified?",
-    a: "Yes. Every lot on BidVerx comes from a verified source and passes our checks before it is listed. Detailed lot information is available on each listing so you can bid with full confidence.",
+    q: "Can I run auctions under my own brand?",
+    a: "Yes. Professional and Enterprise plans let you fully customize your house: your logo, colors and domain, so your bidders buy from you — not from a generic marketplace.",
   },
   {
-    q: "Where do the lots come from?",
-    a: "Lots are sourced from trusted auction networks, dealers and certified partners — never from unknown or unverified sellers.",
+    q: "What types of auctions can I run?",
+    a: "Live-streamed, timed and hybrid auctions, plus buy-now listings. You can also schedule multi-session sales, run previews and manage absentee bidding from one dashboard.",
   },
   {
-    q: "How does the bidding process work?",
-    a: "Auctions run in real time. You see the current bid, the time remaining, and live auction activity. Place a bid, and the system instantly updates the auction. If you are outbid, you will be notified so you can respond.",
+    q: "How are payments handled?",
+    a: "BidVerx collects winning payments automatically through secure gateways — cards, bank transfers and your own in-house terms. Funds settle directly to your account on your schedule.",
   },
   {
-    q: "Is there a registration fee?",
-    a: "No. Registration is completely free with the Starter plan. You only upgrade when you want unlimited bidding and advanced features.",
+    q: "What fees does BidVerx charge?",
+    a: "No commission on your sales. Plans are a flat monthly subscription, and the Starter plan is free. You only pay when you upgrade for unlimited lots and advanced features.",
   },
   {
-    q: "How will I know if I win?",
-    a: "The moment you win, you receive an instant confirmation by email and notification. Your dashboard also updates immediately so you are never left guessing.",
+    q: "Can I import my existing inventory?",
+    a: "Yes. Bulk import your lots from CSV or Excel in minutes, or use the API on Enterprise plans to sync directly from your existing systems.",
   },
   {
-    q: "What happens after I win a bid?",
-    a: "Our team helps you complete the purchase securely — from payment and paperwork to shipping and delivery. Support is with you every step of the way.",
+    q: "How will my bidders get support?",
+    a: "Your bidders enjoy a smooth, simple experience, and every plan includes our support. Professional and Enterprise plans add priority support plus a dedicated account manager.",
   },
   {
-    q: "Can I get support during the process?",
-    a: "Absolutely. Every plan includes support, and Professional and Premium members get priority access to our dedicated team throughout their bidding journey.",
+    q: "Is there a long-term contract?",
+    a: "No. You can start, pause or cancel anytime. We keep you because your auctions perform, not because you are locked in.",
   },
 ];

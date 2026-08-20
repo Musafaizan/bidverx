@@ -10,12 +10,12 @@ export default function Pricing() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <span className="eyebrow">Plans for every bidder</span>
+            <span className="eyebrow">Plans for every house</span>
             <h2 className="section-title">
-              Choose Your <span className="grad-text">Bidding Experience</span>
+              Choose Your <span className="grad-text">Auction Plan</span>
             </h2>
             <p className="section-sub">
-              Start free, scale up when you're ready. No hidden fees.
+              Start free, scale as you grow. No hidden fees, no commission on your sales.
             </p>
           </div>
         </Reveal>
