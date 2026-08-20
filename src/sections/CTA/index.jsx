@@ -11,7 +11,8 @@ export default function CTA() {
   useEffect(() => {
     const onScroll = () => {
       const y = Math.min(window.scrollY, 900);
-      setParallax(y * -0.05);
+      const isMobile = window.matchMedia("(max-width: 1024px)").matches;
+      setParallax(isMobile ? 0 : y * -0.05);
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
